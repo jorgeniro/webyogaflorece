@@ -76,6 +76,15 @@ h1, h2, h3, h4, h5, h6 {
     right: 5px;
 }
 
+.header--icon {
+    text-decoration: none;
+    color: #fff;
+}
+.header--icon:hover {
+    color: #6867ac;
+    
+}
+
 /* estilos menu */
 
 .main-nav {
@@ -544,6 +553,6 @@ transition: 0.2s;
         line-height: 30px;
     }
     .welcome {
-        width: 2000px;
+        width: 100%;
     }
 }
