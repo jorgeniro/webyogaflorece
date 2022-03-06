@@ -82,7 +82,11 @@
        
     }
 }
-
+@media screen and (min-width:478px) {
+    .column--50-25 {
+        width: 99%;
+    }
+}
 
 @media screen and (min-width:768px) {
     .main { 

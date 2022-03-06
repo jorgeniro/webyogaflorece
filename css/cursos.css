@@ -26,9 +26,23 @@
     }
 
 }
-
+@media screen and (min-width:478px) {
+    .column--50 {
+        width: 100%;
+    }
+    .test1{
+        order: 2;
+    }
+    .test2 {
+        order: 1;
+    }
+}
 
 @media screen and (min-width:768px) {
+
+    .column--50 {
+        width: 50%;
+    }
     
     .main__about__description .column--50:nth-child(2) .column__text{
         line-height: 20px;
